@@ -21,6 +21,10 @@
 			url: 'bootstrap.png'
 		},
 		{
+			title: 'Tailwind',
+			url: 'tailwind.png'
+		},
+		{
 			title: 'Vue',
 			url: 'vue.png'
 		},
@@ -58,11 +62,11 @@
 	];
 </script>
 
-<div class="">
-	<h4 class="text-white text-2xl">Frontend</h4>
-	<div class="grid grid-cols-5 gap-2 text justify-center">
+<div class="container mx-auto">
+	<h4 class="text-white text-4xl text-center mb-3">Frontend</h4>
+	<div class="grid  gap-5 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 ">
 		{#each arrayfrontend as fr}
-			<div class=" flex justify-center">
+			<div class=" flex justify-center my-4">
 				<div>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<img style="height: 8rem" src="./img/{fr.url}" alt={fr.title} class="" />
@@ -72,10 +76,10 @@
 			</div>
 		{/each}
 	</div>
-	<h4 class="text-white text-2xl">Backend</h4>
-	<div class="grid grid-cols-5 gap-2 text justify-center">
+	<h4 class="text-white text-4xl text-center mb-3 mt-7">Backend</h4>
+	<div class="grid  gap-2 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1">
 		{#each arraybackend as ba}
-			<div class=" flex justify-center">
+			<div class=" flex justify-center my-4">
 				<div>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<img style="height: 8rem" src="./img/{ba.url}" alt={ba.title} class="" />

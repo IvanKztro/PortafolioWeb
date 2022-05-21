@@ -14,25 +14,25 @@
 			<ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
 				<li>
 					<a
-						href="#"
+						href="#habilidades"
 						class="transition ease-in-out delay-50 hover:-translate-x-6 hover:scale-210 duration-200 text-white   hover:font-bold hover:no-underline hover:text-purple-700"
 						>Habilidades</a
 					>
 				</li>
 				<li>
 					<a
-						href="#"
+						href="#proyectos"
 						class="transition ease-in-out delay-50 hover:-translate-x-6 hover:scale-210 duration-200 text-white   hover:font-bold hover:no-underline hover:text-purple-700"
 						>Proyectos</a
 					>
 				</li>
-				<li>
+				<!-- <li>
 					<a
-						href="#"
+						href="#contacto"
 						class="transition ease-in-out delay-50 hover:-translate-x-6 hover:scale-210 duration-200 text-white   hover:font-bold hover:no-underline hover:text-purple-700"
 						>Contacto</a
 					>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</div>
