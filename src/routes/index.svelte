@@ -56,15 +56,15 @@
 	<title>Portafolio</title>
 </svelte:head>
 {#if particlesConfig}
-	<div class:loaded bind:this={particules}>
+	<div>
 		<!-- class:loaded bind:this={particules} -->
-		<Particles
-			id="tsparticles"
-			options={particlesConfig}
-			on:particlesLoaded={onParticlesLoaded}
-			on:particlesInit={onParticlesInit}
-		/>
-		<div class=" text-purple-700  top">
+		<div class=" text-purple-700  top" class:loaded bind:this={particules}>
+			<Particles
+				id="tsparticles"
+				options={particlesConfig}
+				on:particlesLoaded={onParticlesLoaded}
+				on:particlesInit={onParticlesInit}
+			/>
 			<div class="container mx-auto pt-12">
 				<p class="text text-purple-700">¡Hola!</p>
 				<p class="text text-purple-700">Soy Ivan Castro</p>
@@ -75,6 +75,7 @@
 					{/if}
 				</div>
 			</div>
+			<!-- </Particles> -->
 		</div>
 
 		<div id="habilidades" class="  habilidades">

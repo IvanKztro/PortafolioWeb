@@ -15,7 +15,7 @@
 		{
 			title: 'Login',
 			image: './img/vue_ncP.jpg',
-			url: 'https://sleepy-thompson-be6395.netlify.app/login',
+			url: 'https://sleepy-thompson-be6395.netlify.app',
 			tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		},
 		{

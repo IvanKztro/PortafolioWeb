@@ -64,7 +64,7 @@
 
 <div class="container mx-auto">
 	<h4 class="text-white text-4xl text-center mb-3">Frontend</h4>
-	<div class="grid  gap-5 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 ">
+	<div class="grid  gap-5 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 ">
 		{#each arrayfrontend as fr}
 			<div class=" flex justify-center my-4">
 				<div>
@@ -77,7 +77,7 @@
 		{/each}
 	</div>
 	<h4 class="text-white text-4xl text-center mb-3 mt-7">Backend</h4>
-	<div class="grid  gap-2 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1">
+	<div class="grid  gap-2 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2">
 		{#each arraybackend as ba}
 			<div class=" flex justify-center my-4">
 				<div>
