@@ -32,6 +32,14 @@
 			tools: ['Next.js', 'Firebase', 'Bootstrap']
 			//React, Bootstrap, Next.js, Firebase
 			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
+		},
+		{
+			title: 'PetsCitas Veterinarias',
+			image: './img/react-citas.PNG',
+			url: 'https://react-vite-citas-pets.netlify.app',
+			tools: ['React', 'tailwindcss', 'localStorage', 'vite']
+			//React, Bootstrap, Next.js, Firebase
+			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		}
 	];
 </script>

@@ -71,7 +71,7 @@
 				<div class="flex items-center">
 					<span class=" text-purple-700 "> Web Developer: </span>
 					{#if $contReadable !== null}
-						<p class="st">{$array[$contReadable]}</p>
+						<p class="st mt-5">{$array[$contReadable]}</p>
 					{/if}
 				</div>
 			</div>
@@ -96,6 +96,7 @@
 	}
 	.st {
 		font-size: 3rem;
+		margin-top: 4rem;
 	}
 
 	/* css maquina de escribit */
@@ -104,7 +105,7 @@
 		font-family: monospace;
 		white-space: nowrap;
 		border-right: 2px solid;
-		width: 16ch;
+		width: 18ch;
 		/* font-size: 3rem; */
 		font-family: 'Courier New', Courier, monospace;
 		/* color: rgb(142, 89, 241); */
@@ -160,7 +161,7 @@
 		}
 	}
 
-	@media (max-width: 576px) {
+	@media (max-width: 767px) {
 		.habilidades {
 			height: 100%;
 			width: 100%;
@@ -183,7 +184,7 @@
 		/* css maquina de escribit */
 		span {
 			width: 16ch;
-			font-size: 1.2rem;
+			font-size: 1.4rem;
 			margin-top: 4rem;
 		}
 		p {
@@ -192,7 +193,7 @@
 			margin-top: 4rem;
 		}
 		.st {
-			font-size: 1.2rem;
+			font-size: 1.4rem;
 		}
 		/* span {
 			font-size: 1.2rem;
@@ -204,7 +205,7 @@
 	@media (min-width: 768px) {
 		span {
 			width: 16ch;
-			font-size: 1.2rem;
+			font-size: 3rem;
 			margin-top: 2rem;
 		}
 		p {
@@ -214,7 +215,7 @@
 		}
 		.st {
 			font-size: 3rem;
-			margin-top: 1rem;
+			margin-top: 2rem;
 		}
 	}
 
@@ -228,6 +229,9 @@
 		span {
 			font-size: 3rem;
 		}
+		.st {
+		font-size: 3rem;
+	}
 	}
 
 	/* // Extra large devices (large desktops, 1200px and up) */
