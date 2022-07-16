@@ -1,10 +1,19 @@
 <script lang="ts">
 	const arrayProjects = [
 		{
-			title: 'Peliculas',
-			image: './img/vue_movies.jpg',
-			url: 'https://vue-cartelera.herokuapp.com/home',
-			tools: ['Vue', 'CSS', 'Bootstrap', 'Consumo de API']
+			title: 'PetsCitas Veterinarias',
+			image: './img/react-citas.PNG',
+			url: 'https://react-vite-citas-pets.netlify.app',
+			tools: ['React', 'tailwindcss', 'localStorage', 'vite']
+			//React, Bootstrap, Next.js, Firebase
+			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
+		},
+		{
+			title: 'Consultor de criptomonedas',
+			image: './img/criptos.PNG',
+			url: 'https://react-criptos-vite.netlify.app',
+			//React, Json, Bootstrap, Consumo de API de criptomonedas
+			tools: ['React', 'Consumo de API', 'Tailwind']
 		},
 		{
 			title: 'Carrito de compras',
@@ -13,31 +22,22 @@
 			tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		},
 		{
+			title: 'Peliculas',
+			image: './img/vue_movies.jpg',
+			url: 'https://vue-cartelera.herokuapp.com/home',
+			tools: ['Vue', 'CSS', 'Bootstrap', 'Consumo de API']
+		},
+		{
 			title: 'Login',
 			image: './img/vue_ncP.jpg',
 			url: 'https://sleepy-thompson-be6395.netlify.app',
 			tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		},
 		{
-			title: 'Consultor de criptomonedas',
-			image: './img/react_criptomoneda.JPG',
-			url: 'https://loving-fermat-909dff.netlify.app/',
-			//React, Json, Bootstrap, Consumo de API de criptomonedas
-			tools: ['React', 'Consumo de API', 'Bootstrap']
-		},
-		{
 			title: 'Product Hunt clon',
 			image: './img/react_productHunt.JPG',
 			url: 'https://product-hund-next.web.app/',
 			tools: ['Next.js', 'Firebase', 'Bootstrap']
-			//React, Bootstrap, Next.js, Firebase
-			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
-		},
-		{
-			title: 'PetsCitas Veterinarias',
-			image: './img/react-citas.PNG',
-			url: 'https://react-vite-citas-pets.netlify.app',
-			tools: ['React', 'tailwindcss', 'localStorage', 'vite']
 			//React, Bootstrap, Next.js, Firebase
 			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		}
