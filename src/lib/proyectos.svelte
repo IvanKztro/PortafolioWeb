@@ -16,6 +16,13 @@
 			tools: ['React', 'Consumo de API', 'Tailwind']
 		},
 		{
+			title: 'PokeDex',
+			image: './img/pokedex-api.PNG',
+			url: 'https://pokedex-api-alpha.vercel.app/',
+			//React, Json, Bootstrap, Consumo de API de criptomonedas
+			tools: ['Next', 'Consumo de API', 'Tailwind']
+		},
+		{
 			title: 'Carrito de compras',
 			image: './img/vue_carrito.jpg',
 			url: 'https://ivankztro.github.io/carrito-de-compras/View/index.html',
