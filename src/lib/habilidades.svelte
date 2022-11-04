@@ -1,62 +1,66 @@
 <script>
 	const arrayfrontend = [
 		{
-			title: 'HTML',
+			title: 'HTML <br><small>3 años</small>',
 			url: 'html.png'
 		},
 		{
-			title: 'CSS',
+			title: 'CSS <br><small>3 años</small>',
 			url: 'css.png'
 		},
 		{
-			title: 'JavaScript',
+			title: 'JavaScript <br><small>3 años</small>',
 			url: 'javascript.png'
 		},
+		// {
+		// 	title: 'JQuery <br><small>Un año</small>',
+		// 	url: 'jquery.png'
+		// },
 		{
-			title: 'JQuery',
-			url: 'jquery.png'
-		},
-		{
-			title: 'Bootstrap',
+			title: 'Bootstrap <br><small>Un año</small>',
 			url: 'bootstrap.png'
 		},
 		{
-			title: 'Tailwind',
+			title: 'Tailwind <br><small>Un año y medio</small>',
 			url: 'tailwind.png'
 		},
 		{
-			title: 'Vue',
+			title: 'Vue <br><small>Un año</small>',
 			url: 'vue.png'
 		},
 		{
-			title: 'React',
+			title: 'React<br><small>Un año</small>',
 			url: 'react.png'
 		},
 		{
-			title: 'Svelte',
+			title: 'Svelte <br><small>Un año</small>',
 			url: 'svelte.png'
+		},
+		{
+			title: 'Angular <br><small>6 Meses</small>',
+			url: 'angular.png'
 		}
 	];
 
 	const arraybackend = [
+		// {
+		// 	title: 'PHP',
+		// 	url: 'php.png'
+		// },
 		{
-			title: 'PHP',
-			url: 'php.png'
-		},
-		{
-			title: 'Node',
+			title: 'Node <br><small>6 meses</small>',
 			url: 'node.png'
 		},
+		// {
+		// 	title: 'MongoDB',
+		// 	url: 'mongodb.png'
+		// },
+		// {
+		// 	title: 'MySQL',
+		// 	url: 'mysql.png'
+		// },
 		{
-			title: 'MongoDB',
-			url: 'mongodb.png'
-		},
-		{
-			title: 'MySQL',
-			url: 'mysql.png'
-		},
-		{
-			title: 'Firebase',
+			title: 'Firebase <br><small>1 año y medio</small>',
 			url: 'firebase.png'
 		}
 	];
@@ -70,7 +74,7 @@
 				<div>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<img style="height: 8rem" src="./img/{fr.url}" alt={fr.title} class="" />
-					<p class="text-center text-white">{fr.title}</p>
+					<p class="text-center text-white">{@html fr.title}</p>
 				</div>
 				<div />
 			</div>
@@ -83,7 +87,7 @@
 				<div>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<img style="height: 8rem" src="./img/{ba.url}" alt={ba.title} class="" />
-					<p class="text-center text-white">{ba.title}</p>
+					<p class="text-center text-white">{@html ba.title}</p>
 				</div>
 				<div />
 			</div>
