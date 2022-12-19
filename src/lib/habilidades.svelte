@@ -1,4 +1,16 @@
 <script>
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		// setTimeout(() => {
+		const aso = AOS.init({});
+		// const aso = AOS.init();
+		// console.log(aso);
+		// }, 4000);
+	});
+
 	const arrayfrontend = [
 		{
 			title: 'HTML <br><small>3 años</small>',
@@ -67,10 +79,17 @@
 </script>
 
 <div class="container mx-auto">
-	<h4 class="text-white text-4xl text-center mb-3">Frontend</h4>
+	<h4 class="text-white text-4xl text-center mb-3" data-aos="flip-down" data-aos-duration="3500">
+		Frontend
+	</h4>
 	<div class="grid  gap-5 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 ">
 		{#each arrayfrontend as fr}
-			<div class=" flex justify-center my-4">
+			<div
+				class=" flex justify-center my-4"
+				data-aos="fade-right"
+				data-aos-easing="linear"
+				data-aos-duration="3500"
+			>
 				<div>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<img style="height: 8rem" src="./img/{fr.url}" alt={fr.title} class="" />
@@ -80,10 +99,21 @@
 			</div>
 		{/each}
 	</div>
-	<h4 class="text-white text-4xl text-center mb-3 mt-7">Backend</h4>
+	<h4
+		class="text-white text-4xl text-center mb-3 mt-7"
+		data-aos="flip-down"
+		data-aos-duration="3100"
+	>
+		Backend
+	</h4>
 	<div class="grid  gap-2 text justify-center lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2">
 		{#each arraybackend as ba}
-			<div class=" flex justify-center my-4">
+			<div
+				class=" flex justify-center my-4"
+				data-aos="fade-left"
+				data-aos-easing="linear"
+				data-aos-duration="3200"
+			>
 				<div>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<img style="height: 8rem" src="./img/{ba.url}" alt={ba.title} class="" />

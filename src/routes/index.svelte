@@ -2,8 +2,19 @@
 	import Particles from 'svelte-particles';
 	import Habilidades from '$lib/habilidades.svelte';
 	import Proyectos from '$lib/proyectos.svelte';
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	import { contReadable, array } from '$stores/store';
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		// setTimeout(() => {
+		const aso = AOS.init({});
+		// const aso = AOS.init();
+		// console.log(aso);
+		// }, 4000);
+	});
 
 	let particlesUrl = 'http://foo.bar/particles.json';
 	let particlesConfig: any;
@@ -12,27 +23,27 @@
 	let particules: HTMLElement;
 
 	onMount(async () => {
-		particlesConfig = {
-			particles: {
-				number: {
-					value: 40,
-					desnsity: {
-						enable: true,
-						value_area: 800
-					}
-				},
-				color: {
-					value: '#ffffff'
-				},
-				links: {
-					enable: true,
-					color: '#894cec'
-				},
-				move: {
-					enable: true
-				}
-			}
-		};
+		// particlesConfig = {
+		// 	particles: {
+		// 		number: {
+		// 			value: 40,
+		// 			desnsity: {
+		// 				enable: true,
+		// 				value_area: 800
+		// 			}
+		// 		},
+		// 		color: {
+		// 			value: '#ffffff'
+		// 		},
+		// 		links: {
+		// 			enable: true,
+		// 			color: '#894cec'
+		// 		},
+		// 		move: {
+		// 			enable: true
+		// 		}
+		// 	}
+		// };
 		loaded = true;
 	});
 
@@ -55,38 +66,58 @@
 <svelte:head>
 	<title>Portafolio</title>
 </svelte:head>
-{#if particlesConfig}
-	<div>
-		<!-- class:loaded bind:this={particules} -->
-		<div class=" text-purple-700  top" class:loaded bind:this={particules}>
-			<Particles
+<!-- {#if particlesConfig} -->
+<div>
+	<!-- class:loaded bind:this={particules} -->
+	<!-- <div class=" text-purple-700  top" class:loaded bind:this={particules}> -->
+	<div class=" text-purple-700  top">
+		<!-- <Particles
 				id="tsparticles"
 				options={particlesConfig}
 				on:particlesLoaded={onParticlesLoaded}
 				on:particlesInit={onParticlesInit}
-			/>
-			<div class="container mx-auto pt-12">
-				<p class="text text-purple-700">¡Hola!</p>
-				<p class="text text-purple-700">Soy Ivan Castro</p>
-				<div class="flex items-center">
-					<span class=" text-purple-700 "> Web Developer: </span>
-					{#if $contReadable !== null}
-						<p class="st mt-5">{$array[$contReadable]}</p>
-					{/if}
-				</div>
+			/> -->
+		<div class="container mx-auto pt-12">
+			<p
+				class="text text-purple-700"
+				data-aos="fade-left"
+				data-aos-easing="linear"
+				data-aos-duration="3200"
+			>
+				¡Hola!
+			</p>
+			<p
+				class="text text-purple-700"
+				data-aos="fade-right"
+				data-aos-easing="linear"
+				data-aos-duration="3200"
+			>
+				Soy Ivan Castro
+			</p>
+			<div
+				class="flex items-center"
+				data-aos="zoom-in"
+				data-aos-easing="linear"
+				data-aos-duration="3200"
+			>
+				<span class=" text-purple-700 "> Web Developer: </span>
+				{#if $contReadable !== null}
+					<p class="st mt-5">{$array[$contReadable]}</p>
+				{/if}
 			</div>
-			<!-- </Particles> -->
 		</div>
-
-		<div id="habilidades" class="  habilidades">
-			<Habilidades />
-		</div>
-		<div id="proyectos" class="mb-8">
-			<Proyectos />
-		</div>
+		<!-- </Particles> -->
 	</div>
-{/if}
 
+	<div id="habilidades" class="  habilidades">
+		<Habilidades />
+	</div>
+	<div id="proyectos" class="mb-8">
+		<Proyectos />
+	</div>
+</div>
+
+<!-- {/if} -->
 <style>
 	.text {
 		/* font-size: 6rem; */
@@ -230,8 +261,8 @@
 			font-size: 3rem;
 		}
 		.st {
-		font-size: 3rem;
-	}
+			font-size: 3rem;
+		}
 	}
 
 	/* // Extra large devices (large desktops, 1200px and up) */

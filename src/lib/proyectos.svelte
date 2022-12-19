@@ -1,4 +1,15 @@
 <script lang="ts">
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		// setTimeout(() => {
+		const aso = AOS.init({});
+		// const aso = AOS.init();
+		// console.log(aso);
+		// }, 4000);
+	});
 	const arrayProjects = [
 		// {
 		// 	title: 'PetsCitas Veterinarias',
@@ -61,11 +72,17 @@
 
 <div id="Proyectos" class="container mx-auto">
 	<div class="">
-		<h2 class="text-center my-8 text-white text-4xl">PROYECTOS PERSONALES</h2>
+		<h2 class="text-center my-8 text-white text-4xl" data-aos="flip-left" data-aos-duration="00">
+			PROYECTOS PERSONALES
+		</h2>
 	</div>
 	<div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 justify-center">
 		{#each arrayProjects as p}
-			<div class=" rounded-lg  shadow-lg bg-purple-200 ">
+			<div
+				class=" rounded-lg  shadow-lg bg-purple-200 "
+				data-aos="zoom-out"
+				data-aos-duration="3300"
+			>
 				<img class="w-full rounded-lg" src={p.image} alt="Sunset in the mountains" />
 				<div class="px-6 py-4">
 					<div class="font-bold text-xl mb-2">{p.title}</div>
