@@ -154,7 +154,7 @@
 		width: 100%;
 
 		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-			url(../../../static/img/webDeveloper.jpg);
+			url(./static/img/webDeveloper.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		/* background-attachment: fixed; */
@@ -167,7 +167,7 @@
 		width: 100%;
 
 		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-			url(../../../static/img/principal.jpg);
+			url(./img/principal.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		/* background-attachment: fixed; */
