@@ -37,7 +37,7 @@
 <!-- </header> -->
 
 <nav id="navbar" class="fixed w-full z-50">
-	<a href="#" class="logo text-white ">IVAN CASTRO</a>
+	<a href="#" class="logo text text-white ">IVAN CASTRO</a>
 
 	<input type="checkbox" name="toggler" id="toggler" />
 	<label
@@ -54,7 +54,7 @@
 	</label>
 
 	<div class="menu">
-		<ul class="list">
+		<ul class="list text">
 			<li>
 				<a
 					href="#habilidades"
@@ -74,6 +74,12 @@
 </nav>
 
 <style>
+	.text {
+		font-size: 1.4rem;
+		font-family: 'Courier New', Courier, monospace;
+		/* color: rgb(142, 89, 241); */
+		color: rgb(255, 255, 255);
+	}
 	.navbar {
 		display: flex;
 		justify-content: center;

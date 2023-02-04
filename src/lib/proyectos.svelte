@@ -20,10 +20,18 @@
 		// 	// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		// },
 		{
-			title: 'Login',
+			title: 'Diseño de inicio de sesión',
 			image: './img/vue_ncP.jpg',
 			url: 'https://sleepy-thompson-be6395.netlify.app',
 			tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
+		},
+		{
+			title: 'Sistema gestor de almacén',
+			image: './img/shoes-shop.PNG',
+			url: 'https://shoes-shop-web.web.app/',
+			tools: ['Angular', 'Autenticator', 'RXJS', 'Firebase', 'Angular Material UI']
+			//React, Bootstrap, Next.js, Firebase
+			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		},
 		// {
 		// 	title: 'Consultor de criptomonedas',
@@ -56,14 +64,6 @@
 			image: './img/react_productHunt.JPG',
 			url: 'https://product-hund-next.web.app/',
 			tools: ['Next.js', 'Firebase', 'Bootstrap']
-			//React, Bootstrap, Next.js, Firebase
-			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
-		},
-		{
-			title: 'Gestor de Almacén',
-			image: './img/shoes-shop.PNG',
-			url: 'https://shoes-shop-web.web.app/',
-			tools: ['Angular', 'Firebase', 'Angular Material UI']
 			//React, Bootstrap, Next.js, Firebase
 			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		}

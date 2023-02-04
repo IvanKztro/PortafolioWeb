@@ -33,7 +33,7 @@
 			url: 'bootstrap.png'
 		},
 		{
-			title: 'Tailwind <br><small>Un año y medio</small>',
+			title: 'Tailwind <br><small>2 años</small>',
 			url: 'tailwind.png'
 		},
 		{
@@ -41,7 +41,7 @@
 			url: 'vue.png'
 		},
 		{
-			title: 'React<br><small>Un año</small>',
+			title: 'React<br><small>6 meses</small>',
 			url: 'react.png'
 		},
 		{
@@ -49,7 +49,7 @@
 			url: 'svelte.png'
 		},
 		{
-			title: 'Angular <br><small>6 Meses</small>',
+			title: 'Angular <br><small>Un año</small>',
 			url: 'angular.png'
 		}
 	];
