@@ -56,7 +56,7 @@
 		{
 			title: 'Peliculas',
 			image: './img/vue_movies.jpg',
-			url: 'https://vue-cartelera.herokuapp.com/home',
+			url: 'https://cartelera-vue.netlify.app/',
 			tools: ['Vue', 'CSS', 'Bootstrap', 'Consumo de API']
 		},
 		{

@@ -24,6 +24,10 @@
 			title: 'JavaScript <br><small>3 años</small>',
 			url: 'javascript.png'
 		},
+		{
+			title: 'TypeScript <br><small>Un año</small>',
+			url: 'typescript.png'
+		},
 		// {
 		// 	title: 'JQuery <br><small>Un año</small>',
 		// 	url: 'jquery.png'
@@ -55,10 +59,10 @@
 	];
 
 	const arraybackend = [
-		// {
-		// 	title: 'PHP',
-		// 	url: 'php.png'
-		// },
+		{
+			title: 'PHP <br><small>Un año</small>',
+			url: 'php.png'
+		},
 		{
 			title: 'Node <br><small>6 meses</small>',
 			url: 'node.png'
@@ -67,10 +71,10 @@
 		// 	title: 'MongoDB',
 		// 	url: 'mongodb.png'
 		// },
-		// {
-		// 	title: 'MySQL',
-		// 	url: 'mysql.png'
-		// },
+		{
+			title: 'MySQL  <br><small>Un año</small>',
+			url: 'mysql.png'
+		},
 		{
 			title: 'Firebase <br><small>1 año y medio</small>',
 			url: 'firebase.png'
