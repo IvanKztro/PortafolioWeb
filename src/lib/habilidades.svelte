@@ -45,7 +45,7 @@
 			url: 'vue.png'
 		},
 		{
-			title: 'React<br><small>6 meses</small>',
+			title: 'React<br><small>Un año</small>',
 			url: 'react.png'
 		},
 		{
