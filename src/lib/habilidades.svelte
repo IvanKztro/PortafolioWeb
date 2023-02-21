@@ -48,10 +48,10 @@
 			title: 'React<br><small>Un año</small>',
 			url: 'react.png'
 		},
-		{
-			title: 'Svelte <br><small>Un año</small>',
-			url: 'svelte.png'
-		},
+		// {
+		// 	title: 'Svelte <br><small>Un año</small>',
+		// 	url: 'svelte.png'
+		// },
 		{
 			title: 'Angular <br><small>Un año</small>',
 			url: 'angular.png'
