@@ -33,13 +33,13 @@
 			//React, Bootstrap, Next.js, Firebase
 			// tools: ['HTML', 'JS', 'CSS', 'Bootstrap']
 		},
-		// {
-		// 	title: 'Consultor de criptomonedas',
-		// 	image: './img/criptos.PNG',
-		// 	url: 'https://react-criptos-vite.netlify.app',
-		// 	//React, Json, Bootstrap, Consumo de API de criptomonedas
-		// 	tools: ['React', 'Consumo de API', 'Tailwind']
-		// },
+		{
+			title: 'Gestión de tickets (tasks/tareas)',
+			image: './img/tickets.jpg',
+			url: 'https://overcome-test.web.app',
+			//React, Json, Bootstrap, Consumo de API de criptomonedas
+			tools: ['Angular', 'Autenticator', 'Tailwind', 'Firebase', 'RXJS', 'Drag-Drop']
+		},
 		{
 			title: 'PokeDex',
 			image: './img/pokedex-api.PNG',
