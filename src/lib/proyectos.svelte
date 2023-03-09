@@ -38,7 +38,15 @@
 			image: './img/tickets.jpg',
 			url: 'https://overcome-test.web.app',
 			//React, Json, Bootstrap, Consumo de API de criptomonedas
-			tools: ['Angular', 'Autenticator', 'Tailwind', 'Firebase', 'RXJS', 'Drag-Drop']
+			tools: [
+				'Angular',
+				'Autenticator',
+				'Tailwind',
+				'Firebase',
+				'RXJS',
+				'Drag-Drop',
+				'No responsive'
+			]
 		},
 		{
 			title: 'PokeDex',
