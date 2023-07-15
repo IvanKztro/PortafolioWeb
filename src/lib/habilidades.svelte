@@ -25,7 +25,7 @@
 			url: 'javascript.png'
 		},
 		{
-			title: 'TypeScript <br><small>Un año</small>',
+			title: 'TypeScript <br><small>2 años</small>',
 			url: 'typescript.png'
 		},
 		// {
@@ -44,16 +44,16 @@
 			title: 'Vue <br><small>Un año</small>',
 			url: 'vue.png'
 		},
-		{
-			title: 'React<br><small>Un año</small>',
-			url: 'react.png'
-		},
+		// {
+		// 	title: 'React<br><small>Un año</small>',
+		// 	url: 'react.png'
+		// },
 		// {
 		// 	title: 'Svelte <br><small>Un año</small>',
 		// 	url: 'svelte.png'
 		// },
 		{
-			title: 'Angular <br><small>Un año</small>',
+			title: 'Angular <br><small>2 años</small>',
 			url: 'angular.png'
 		}
 	];
@@ -76,7 +76,7 @@
 			url: 'mysql.png'
 		},
 		{
-			title: 'Firebase <br><small>1 año y medio</small>',
+			title: 'Firebase <br><small>2 años</small>',
 			url: 'firebase.png'
 		}
 	];
